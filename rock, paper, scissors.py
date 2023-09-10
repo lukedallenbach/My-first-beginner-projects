@@ -7,7 +7,7 @@ def rock_paper_scissors_game(x):
     computer_options = ['rock', 'paper', 'scissors']
     computer_score = 0
     human_score = 0
-    print('Wlecome to my rock, paper scissors game.')
+    print('Wlecome to my rock, paper, scissors game.')
     print('The rules are very simple. Choose either rock, paper, or scissors.')
     print(f'The aim is to beat the computer to {x} points. A point is gained by either the computer or you by beating the other players hand.')
     print('Good luck yo')
@@ -24,7 +24,7 @@ def rock_paper_scissors_game(x):
                 human_score += 1
                 print('Rock beats scissors, you win a point.')
             else:
-                print('It\'s a tie!')
+                print("It's a tie yo!")
         
         elif my_hand == 'paper':
             if computer_hand == 'scissors':
@@ -34,7 +34,7 @@ def rock_paper_scissors_game(x):
                 human_score += 1
                 print('Paper beats rock, you win a point.')
             else:
-                print('It\'s a tie!')
+                print("It's a tie yo!")
         
         elif my_hand == 'scissors':
             if computer_hand == 'rock':
